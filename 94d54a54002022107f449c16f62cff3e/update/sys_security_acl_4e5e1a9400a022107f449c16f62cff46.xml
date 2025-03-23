@@ -4,24 +4,24 @@
         <admin_overrides>true</admin_overrides>
         <advanced>true</advanced>
         <condition/>
-        <description>Allow delete for records in x_cdltd_loaner_req_loaner_request, for users with role x_cdltd_loaner_req.admin.</description>
+        <description/>
         <local_or_existing>Local</local_or_existing>
         <name>x_cdltd_loaner_req_loaner_request</name>
-        <operation display_value="delete">delete</operation>
-        <script/>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[current.isNewRecord();]]></script>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-23 21:46:23</sys_created_on>
-        <sys_id>fb368218002022107f449c16f62cffaa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2025-03-23 23:38:24</sys_created_on>
+        <sys_id>4e5e1a9400a022107f449c16f62cff46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_cdltd_loaner_req_loaner_request</sys_name>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">94d54a54002022107f449c16f62cff3e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Request">94d54a54002022107f449c16f62cff3e</sys_scope>
-        <sys_update_name>sys_security_acl_fb368218002022107f449c16f62cffaa</sys_update_name>
+        <sys_update_name>sys_security_acl_4e5e1a9400a022107f449c16f62cff46</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-23 23:28:51</sys_updated_on>
+        <sys_updated_on>2025-03-23 23:38:24</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
